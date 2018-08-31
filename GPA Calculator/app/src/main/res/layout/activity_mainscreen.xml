@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.firstproject2018.mainscreen">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="327dp"
+        android:layout_height="33dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Please input your grade"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.017" />
+
+    <Button
+        android:id="@+id/calc"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="294dp"
+        android:layout_height="64dp"
+        android:layout_marginBottom="76dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginStart="24dp"
+        android:elevation="0dp"
+        android:imeOptions="actionDone"
+        android:text="@string/calculate"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <android.support.v4.widget.NestedScrollView
+        android:id="@+id/nestedScrollView"
+        android:layout_width="344dp"
+        android:layout_height="302dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:fillViewport="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.274">
+
+        <LinearLayout
+            android:id="@+id/listofcourses"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <android.support.design.widget.TextInputLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <android.support.design.widget.TextInputLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <android.support.design.widget.TextInputLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+
+                                    <android.support.design.widget.TextInputLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <android.support.design.widget.TextInputLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent">
+
+                                            <android.support.design.widget.TextInputEditText
+                                                android:id="@+id/cs136"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:hint="CS 116/136/146 Grade"
+                                                android:inputType="number" />
+
+                                            <android.support.design.widget.TextInputLayout
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent">
+
+                                                <android.support.design.widget.TextInputLayout
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="match_parent">
+
+                                                    <android.support.design.widget.TextInputLayout
+                                                        android:layout_width="match_parent"
+                                                        android:layout_height="match_parent">
+
+                                                        <android.support.design.widget.TextInputEditText
+                                                            android:id="@+id/comm"
+                                                            android:layout_width="match_parent"
+                                                            android:layout_height="wrap_content"
+                                                            android:hint="Comm Grade"
+                                                            android:inputType="number" />
+
+                                                        <requestFocus />
+                                                    </android.support.design.widget.TextInputLayout>
+
+                                                    <android.support.design.widget.TextInputEditText
+                                                        android:id="@+id/ec"
+                                                        android:layout_width="match_parent"
+                                                        android:layout_height="wrap_content"
+                                                        android:hint="EC 140 Grade"
+                                                        android:inputType="textCapCharacters|number" />
+
+                                                    <requestFocus />
+                                                </android.support.design.widget.TextInputLayout>
+
+                                                <android.support.design.widget.TextInputEditText
+                                                    android:id="@+id/bu2"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:hint="BU 121 Grade"
+                                                    android:inputType="textCapCharacters|number" />
+
+                                                <requestFocus />
+                                            </android.support.design.widget.TextInputLayout>
+
+                                            <requestFocus />
+                                        </android.support.design.widget.TextInputLayout>
+
+                                        <android.support.design.widget.TextInputEditText
+                                            android:id="@+id/calcMa"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:hint="Math 138 Grade"
+                                            android:inputType="number" />
+
+                                        <requestFocus />
+                                    </android.support.design.widget.TextInputLayout>
+
+                                    <android.support.design.widget.TextInputEditText
+                                        android:id="@+id/ma136"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:hint="Math 136 Grade"
+                                        android:inputType="number" />
+
+                                    <requestFocus />
+                                </android.support.design.widget.TextInputLayout>
+
+                                <android.support.design.widget.TextInputEditText
+                                    android:id="@+id/ec120"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:hint="EC 120"
+                                    android:inputType="textCapCharacters|number" />
+
+                                <requestFocus />
+                            </android.support.design.widget.TextInputLayout>
+
+                            <android.support.design.widget.TextInputEditText
+                                android:id="@+id/bu111"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:hint="BU 111 Grade"
+                                android:inputType="textCapCharacters|number" />
+
+                            <requestFocus />
+                        </android.support.design.widget.TextInputLayout>
+
+                        <android.support.design.widget.TextInputEditText
+                            android:id="@+id/cs135"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:focusedByDefault="false"
+                            android:hint="CS 115/135/145 Grade"
+                            android:inputType="number" />
+
+                        <requestFocus />
+                    </android.support.design.widget.TextInputLayout>
+
+                    <android.support.design.widget.TextInputEditText
+                        android:id="@+id/ma137"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Math 137/ Stats 230 Grade"
+                        android:inputType="number" />
+
+                    <requestFocus />
+
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/ma135"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Math 135 Grade"
+                    android:inputType="number" />
+
+                <requestFocus />
+
+            </android.support.design.widget.TextInputLayout>
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+    <TextView
+        android:id="@+id/rez"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="GPA"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/percentrez"
+        app:layout_constraintTop_toBottomOf="@+id/calc" />
+
+    <TextView
+        android:id="@+id/percentrez"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="Grade %"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.184"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/calc" />
+
+
+</android.support.constraint.ConstraintLayout>
