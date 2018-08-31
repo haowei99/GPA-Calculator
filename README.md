@@ -1,5 +1,6 @@
 # Waterloo Double Degree GPA Calculator 2018 
 ![Homescreen](https://lh6.googleusercontent.com/xcGvV9OGRWzRcXH9tkHpMoSSLrIfnI2C4gWPHaMVK9Or0h75kwuJt5rLvQPPMqkRbds4QTB5kf33xgq8b_CD=w1920-h849-rw)
+![Homescreen2](https://lh6.googleusercontent.com/LRM49FI8aCoSZmiObdDD_eO2o1WhB4YkJvJ7IzYq3GFMM-CUpWJXX0q6f9C0e1LmLwPnScp6BrIXq7YqCb46=w1920-h849-rw)
 
 # Source File
 The code is written in Java and XML. The source code can be foud in the "main" folder
@@ -24,6 +25,11 @@ From starting off with no coding experience and no knowledge of android studio, 
 
 # What is next for DD-GPA
 We wish to fix up the UI/UX a bit as a template is made already and complete this application for the upper year double degree students as it is only for first years right now.
+
+![Changes](https://lh5.googleusercontent.com/Lxo9sBZxnEnYyt-TelRELkdk3qlwm4ghdaRsyaSU7o_WazMrpIQ3nPwv0lIP1o7tzbj6c-hM_GSs2PzinZaU=w1920-h849-rw)
+
+![Changes 2](https://lh4.googleusercontent.com/h2rzPP16VnkTV05ApKcsg8yONn8QXPtzbBfI_2ZUxz7GOeI3HJb9gZ3PG4tbFmVisXA-AmuNdMU2Ju5kfyu5=w1920-h849-rw)
+
 
 # Running the application
 Simply download/clone the source code from GitHub link provided and run on Android studio. If you want to run it on your phone, copy it over to the main files of your phone when plugged into your laptop. After that, unplug from the laptop and open the files app on your phone. Under that you should be able to find the application. Install it in your phone and run it. 
