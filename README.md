@@ -1,5 +1,5 @@
 # Waterloo Double Degree GPA Calculator 2018 
-![alt text](https://lh6.googleusercontent.com/xcGvV9OGRWzRcXH9tkHpMoSSLrIfnI2C4gWPHaMVK9Or0h75kwuJt5rLvQPPMqkRbds4QTB5kf33xgq8b_CD=w1920-h849-rw)
+![Homescreen](https://lh6.googleusercontent.com/xcGvV9OGRWzRcXH9tkHpMoSSLrIfnI2C4gWPHaMVK9Or0h75kwuJt5rLvQPPMqkRbds4QTB5kf33xgq8b_CD=w1920-h849-rw)
 
 # Source File
 The code is written in Java and XML. The source code can be foud in the "main" folder
