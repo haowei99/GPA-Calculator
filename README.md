@@ -1,6 +1,6 @@
 # Waterloo Double Degree GPA Calculator 2018 
-![Homescreen](https://lh6.googleusercontent.com/xcGvV9OGRWzRcXH9tkHpMoSSLrIfnI2C4gWPHaMVK9Or0h75kwuJt5rLvQPPMqkRbds4QTB5kf33xgq8b_CD=w1920-h849-rw)
-![Homescreen2](https://lh6.googleusercontent.com/LRM49FI8aCoSZmiObdDD_eO2o1WhB4YkJvJ7IzYq3GFMM-CUpWJXX0q6f9C0e1LmLwPnScp6BrIXq7YqCb46=w1920-h849-rw)
+![Homescreen](https://lh5.googleusercontent.com/H1UEKECuUPq7RmzlCLaLRwyD0XyqPm5zGjEk7IrL12AcvQiivQFf44pLAOiLdbLxN_5JwBIxmq8Lf3ZyL2Rr=w1920-h841-rw)
+![Homescreen2](https://lh5.googleusercontent.com/avqHeJGhgmEPaMaoL7Wln2LaESOd3eR8hH2rwv-wbVv82R9SJWxhlD9R9CBm9TQVb13gJPt6w_3ugt97k_pl=w1920-h841-rw)
 
 # Source File
 The code is written in Java and XML. The source code can be foud in the "main" folder
@@ -26,9 +26,9 @@ From starting off with no coding experience and no knowledge of android studio, 
 # What is next for DD-GPA
 We wish to fix up the UI/UX a bit as a template is made already and complete this application for the upper year double degree students as it is only for first years right now.
 
-![Changes](https://lh5.googleusercontent.com/Lxo9sBZxnEnYyt-TelRELkdk3qlwm4ghdaRsyaSU7o_WazMrpIQ3nPwv0lIP1o7tzbj6c-hM_GSs2PzinZaU=w1920-h849-rw)
+![Changes](https://lh3.googleusercontent.com/XII5XcPJHMNOcaPCnZViCxaf9qpjI2l5SEGfA32zC8z-omaGquoKrQI20ot3vUMZMB9l_SxM8NfjjHOTlQL4=w1920-h841-rw)
 
-![Changes 2](https://lh4.googleusercontent.com/h2rzPP16VnkTV05ApKcsg8yONn8QXPtzbBfI_2ZUxz7GOeI3HJb9gZ3PG4tbFmVisXA-AmuNdMU2Ju5kfyu5=w1920-h849-rw)
+![Changes 2](https://lh6.googleusercontent.com/HIm2FaLprF0B_WBY_sl21bI1RhL7ob6bZidyYa2FQR6M2CCClFHtJQ2OOVc_eY4ttkn-10XXmtdQ1R8riTBu=w1920-h841-rw)
 
 
 # Running the application
